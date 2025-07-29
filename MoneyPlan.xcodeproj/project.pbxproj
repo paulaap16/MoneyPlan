@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231655012E353216005362CD /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 231655002E353216005362CD /* Auth */; };
+		231655032E353216005362CD /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 231655022E353216005362CD /* Functions */; };
+		231655052E353216005362CD /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 231655042E353216005362CD /* PostgREST */; };
+		231655072E353216005362CD /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 231655062E353216005362CD /* Realtime */; };
+		231655092E353216005362CD /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 231655082E353216005362CD /* Storage */; };
+		231655302E353635005362CD /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2316552F2E353635005362CD /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2334EEA32E336F1900F7620B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2334EE8D2E336F1400F7620B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2334EE942E336F1500F7620B;
+			remoteInfo = MoneyPlan;
+		};
+		2334EEAD2E336F1900F7620B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2334EE8D2E336F1400F7620B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2334EE942E336F1500F7620B;
+			remoteInfo = MoneyPlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2334EE952E336F1500F7620B /* MoneyPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334EEA22E336F1900F7620B /* MoneyPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334EEAC2E336F1900F7620B /* MoneyPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2334EE972E336F1500F7620B /* MoneyPlan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoneyPlan;
+			sourceTree = "<group>";
+		};
+		2334EEA52E336F1900F7620B /* MoneyPlanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoneyPlanTests;
+			sourceTree = "<group>";
+		};
+		2334EEAF2E336F1900F7620B /* MoneyPlanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoneyPlanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2334EE922E336F1500F7620B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231655052E353216005362CD /* PostgREST in Frameworks */,
+				231655032E353216005362CD /* Functions in Frameworks */,
+				231655302E353635005362CD /* Supabase in Frameworks */,
+				231655012E353216005362CD /* Auth in Frameworks */,
+				231655092E353216005362CD /* Storage in Frameworks */,
+				231655072E353216005362CD /* Realtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334EE9F2E336F1900F7620B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334EEA92E336F1900F7620B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2334EE8C2E336F1400F7620B = {
+			isa = PBXGroup;
+			children = (
+				2334EE972E336F1500F7620B /* MoneyPlan */,
+				2334EEA52E336F1900F7620B /* MoneyPlanTests */,
+				2334EEAF2E336F1900F7620B /* MoneyPlanUITests */,
+				2334EE962E336F1500F7620B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2334EE962E336F1500F7620B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2334EE952E336F1500F7620B /* MoneyPlan.app */,
+				2334EEA22E336F1900F7620B /* MoneyPlanTests.xctest */,
+				2334EEAC2E336F1900F7620B /* MoneyPlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2334EE942E336F1500F7620B /* MoneyPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2334EEB62E336F1900F7620B /* Build configuration list for PBXNativeTarget "MoneyPlan" */;
+			buildPhases = (
+				2334EE912E336F1500F7620B /* Sources */,
+				2334EE922E336F1500F7620B /* Frameworks */,
+				2334EE932E336F1500F7620B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2334EE972E336F1500F7620B /* MoneyPlan */,
+			);
+			name = MoneyPlan;
+			packageProductDependencies = (
+				231655002E353216005362CD /* Auth */,
+				231655022E353216005362CD /* Functions */,
+				231655042E353216005362CD /* PostgREST */,
+				231655062E353216005362CD /* Realtime */,
+				231655082E353216005362CD /* Storage */,
+				2316552F2E353635005362CD /* Supabase */,
+			);
+			productName = MoneyPlan;
+			productReference = 2334EE952E336F1500F7620B /* MoneyPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2334EEA12E336F1900F7620B /* MoneyPlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2334EEB92E336F1900F7620B /* Build configuration list for PBXNativeTarget "MoneyPlanTests" */;
+			buildPhases = (
+				2334EE9E2E336F1900F7620B /* Sources */,
+				2334EE9F2E336F1900F7620B /* Frameworks */,
+				2334EEA02E336F1900F7620B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2334EEA42E336F1900F7620B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2334EEA52E336F1900F7620B /* MoneyPlanTests */,
+			);
+			name = MoneyPlanTests;
+			packageProductDependencies = (
+			);
+			productName = MoneyPlanTests;
+			productReference = 2334EEA22E336F1900F7620B /* MoneyPlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2334EEAB2E336F1900F7620B /* MoneyPlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2334EEBC2E336F1900F7620B /* Build configuration list for PBXNativeTarget "MoneyPlanUITests" */;
+			buildPhases = (
+				2334EEA82E336F1900F7620B /* Sources */,
+				2334EEA92E336F1900F7620B /* Frameworks */,
+				2334EEAA2E336F1900F7620B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2334EEAE2E336F1900F7620B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2334EEAF2E336F1900F7620B /* MoneyPlanUITests */,
+			);
+			name = MoneyPlanUITests;
+			packageProductDependencies = (
+			);
+			productName = MoneyPlanUITests;
+			productReference = 2334EEAC2E336F1900F7620B /* MoneyPlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2334EE8D2E336F1400F7620B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2334EE942E336F1500F7620B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2334EEA12E336F1900F7620B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2334EE942E336F1500F7620B;
+					};
+					2334EEAB2E336F1900F7620B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2334EE942E336F1500F7620B;
+					};
+				};
+			};
+			buildConfigurationList = 2334EE902E336F1400F7620B /* Build configuration list for PBXProject "MoneyPlan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2334EE8C2E336F1400F7620B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				231654FF2E353216005362CD /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2334EE962E336F1500F7620B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2334EE942E336F1500F7620B /* MoneyPlan */,
+				2334EEA12E336F1900F7620B /* MoneyPlanTests */,
+				2334EEAB2E336F1900F7620B /* MoneyPlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2334EE932E336F1500F7620B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334EEA02E336F1900F7620B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334EEAA2E336F1900F7620B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2334EE912E336F1500F7620B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334EE9E2E336F1900F7620B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334EEA82E336F1900F7620B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2334EEA42E336F1900F7620B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2334EE942E336F1500F7620B /* MoneyPlan */;
+			targetProxy = 2334EEA32E336F1900F7620B /* PBXContainerItemProxy */;
+		};
+		2334EEAE2E336F1900F7620B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2334EE942E336F1500F7620B /* MoneyPlan */;
+			targetProxy = 2334EEAD2E336F1900F7620B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2334EEB42E336F1900F7620B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2334EEB52E336F1900F7620B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2334EEB72E336F1900F7620B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaulaArroyo.MoneyPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2334EEB82E336F1900F7620B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaulaArroyo.MoneyPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2334EEBA2E336F1900F7620B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaulaArroyo.MoneyPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyPlan";
+			};
+			name = Debug;
+		};
+		2334EEBB2E336F1900F7620B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaulaArroyo.MoneyPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyPlan";
+			};
+			name = Release;
+		};
+		2334EEBD2E336F1900F7620B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaulaArroyo.MoneyPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyPlan;
+			};
+			name = Debug;
+		};
+		2334EEBE2E336F1900F7620B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaulaArroyo.MoneyPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyPlan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2334EE902E336F1400F7620B /* Build configuration list for PBXProject "MoneyPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334EEB42E336F1900F7620B /* Debug */,
+				2334EEB52E336F1900F7620B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2334EEB62E336F1900F7620B /* Build configuration list for PBXNativeTarget "MoneyPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334EEB72E336F1900F7620B /* Debug */,
+				2334EEB82E336F1900F7620B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2334EEB92E336F1900F7620B /* Build configuration list for PBXNativeTarget "MoneyPlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334EEBA2E336F1900F7620B /* Debug */,
+				2334EEBB2E336F1900F7620B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2334EEBC2E336F1900F7620B /* Build configuration list for PBXNativeTarget "MoneyPlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334EEBD2E336F1900F7620B /* Debug */,
+				2334EEBE2E336F1900F7620B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		231654FF2E353216005362CD /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		231655002E353216005362CD /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231654FF2E353216005362CD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		231655022E353216005362CD /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231654FF2E353216005362CD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		231655042E353216005362CD /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231654FF2E353216005362CD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		231655062E353216005362CD /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231654FF2E353216005362CD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		231655082E353216005362CD /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231654FF2E353216005362CD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		2316552F2E353635005362CD /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231654FF2E353216005362CD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2334EE8D2E336F1400F7620B /* Project object */;
+}
